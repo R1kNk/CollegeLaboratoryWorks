@@ -1,0 +1,15 @@
+﻿<Window x:Class="PCX_Reader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PCX_Reader"
+        mc:Ignorable="d"
+        Title="PCX Viewer" Height="447.059" Width="657.353">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Height="378" Margin="18,21,23,17" Width="608">
+        <Image HorizontalAlignment="Center" Height="300" Margin="10,26,298,0" VerticalAlignment="Top" Width="300" Name="ImageBox"/>
+        <Button  Name ="LoadButton" Content="Load Pcx
+" HorizontalAlignment="Left" Height="27" Margin="250,341,0,0" VerticalAlignment="Top" Width="143" Click="LoadButton_Click" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFLab_s_12._1__12._2_12._3_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFLab_s_12._1__12._2_12._3_"
+        mc:Ignorable="d"
+        Title="Выбор задания" Height="150" Width="525">
+    <Grid>
+        <Button Content="Задание 2" HorizontalAlignment="Left" Margin="192,42,0,0" VerticalAlignment="Top" Width="119" Height="54" Click="Button_Click_1"/>
+        <Button Content="Задание 3" HorizontalAlignment="Left" Margin="371,42,0,0" VerticalAlignment="Top" Width="119" Height="54" Click="Button_Click_2"/>
+        <Button Content="Задание 1" HorizontalAlignment="Left" Margin="20,42,0,0" VerticalAlignment="Top" Width="119" Height="54" Click="Button_Click"/>
+
+    </Grid>
+</Window>

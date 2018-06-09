@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfAppLab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLab"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="WPF Labs" Height="155.503" Width="525">
+    <Grid>
+        <Button Content="Task1" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" Width="140" Height="65" Click="Button_Click_1"/>
+        <Button Content="Task2" HorizontalAlignment="Left" Margin="186,32,0,0" VerticalAlignment="Top" Width="140" Height="65" Click="Button_Click_2"/>
+        <Button Content="Real Task2" HorizontalAlignment="Left" Margin="353,32,0,0" VerticalAlignment="Top" Width="140" Height="65" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>

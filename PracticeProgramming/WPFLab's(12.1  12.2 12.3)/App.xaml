@@ -1,0 +1,9 @@
+﻿<Application x:Class="WPFLab_s_12._1__12._2_12._3_.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFLab_s_12._1__12._2_12._3_"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

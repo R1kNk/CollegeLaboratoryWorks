@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfAppLab.Task2_Paint"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLab"
+        mc:Ignorable="d"
+        Title="Task2_Paint" Height="630" Width="610">
+    <Canvas HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="600" Margin="0,0,0,-1" x:Name="canvas"/>
+
+
+</Window>

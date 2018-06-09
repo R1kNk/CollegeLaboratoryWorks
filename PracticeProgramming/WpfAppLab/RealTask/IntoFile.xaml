@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfAppLab.RealTask.IntoFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLab.RealTask"
+        mc:Ignorable="d"
+        Title="IntoFile" Height="203.313" Width="168.976">
+    <Grid>
+        <Label Content="Имя файла для записи" HorizontalAlignment="Left" Height="26" Margin="10,17,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="10,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" AutomationProperties.Name="FileTextBox" x:Name="TextBoxFile"/>
+        <CheckBox Content="Перезаписать?" HorizontalAlignment="Left" Height="15" Margin="10,81,0,0" VerticalAlignment="Top" Width="129" x:Name="CheckBoxReWrite"/>
+        <Button Content="Записать" HorizontalAlignment="Left" Height="30" Margin="30,122,0,0" VerticalAlignment="Top" Width="93" Click="Into_Click" />
+
+    </Grid>
+</Window>

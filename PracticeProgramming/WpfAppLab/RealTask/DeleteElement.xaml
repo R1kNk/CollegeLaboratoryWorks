@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfAppLab.RealTask.DeleteElement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLab.RealTask"
+        mc:Ignorable="d"
+        Title="DeleteElement" Height="300" Width="300" Closed="Delete_Closed" MouseMove="MouseMoveWindow">
+    <Grid>
+        <Label Content="По какому критерию искать для удаления?" HorizontalAlignment="Left" Height="26" Margin="0,10,0,0" VerticalAlignment="Top" Width="260"/>
+        <ComboBox HorizontalAlignment="Left" Height="27" Margin="10,41,0,0" VerticalAlignment="Top" Width="133" x:Name="BoxVariants">
+            <TextBlock>По фамилии</TextBlock>
+            <TextBlock>По имени</TextBlock>
+            <TextBlock>По дню рождения</TextBlock>
+            <TextBlock>По месяцу рождения</TextBlock>
+            <TextBlock>По году рождения</TextBlock>
+            <TextBlock>По целой дате</TextBlock>
+        </ComboBox>
+        <Label Content="Введите имя:" x:Name="NameLabel" Visibility="Hidden" HorizontalAlignment="Left" Height="25" Margin="10,94,0,0" VerticalAlignment="Top" Width="89"/>
+        <TextBox HorizontalAlignment="Left" x:Name="NameTextBox" Visibility="Hidden" Height="21" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <Label Content="Введите фамилию:" HorizontalAlignment="Left" x:Name="SurnameLabel" Visibility="Hidden" Height="26" Margin="10,150,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,181,0,0" x:Name="SurnameTextBox" Visibility="Hidden" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <Label Content="Введите день:" HorizontalAlignment="Left" Height="27" Margin="161,76,0,0" x:Name="DayLabel" Visibility="Hidden" VerticalAlignment="Top" Width="99"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="161,103,0,0" x:Name="DayTextBox" Visibility="Hidden" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <Label Content="Введите месяц:" HorizontalAlignment="Left" Height="26" Margin="161,132,0,0" x:Name="MonthLabel" Visibility="Hidden" VerticalAlignment="Top" Width="99"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="161,158,0,0" x:Name="MonthTextBox" Visibility="Hidden" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <Label Content="Введите  год:" HorizontalAlignment="Left" Height="26" Margin="161,187,0,0" x:Name="YearLabel" Visibility="Hidden" VerticalAlignment="Top" Width="89"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="161,218,0,0" x:Name="YearTextBox" Visibility="Hidden" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <Button Content="Поиск и удаление" HorizontalAlignment="Left" Height="19" Margin="161,41,0,0" x:Name="SearchLabel" Visibility="Visible" VerticalAlignment="Top" Width="109" Click="Delete_Click"/>
+
+
+    </Grid>
+</Window>

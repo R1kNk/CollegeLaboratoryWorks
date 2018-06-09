@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppLab.RealTask.OutFromFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLab.RealTask"
+        mc:Ignorable="d"
+        Title="OutFromFile" Height="264.76" Width="265.783">
+    <Grid>
+        <Label Content="Из какого файла взять информацию?" HorizontalAlignment="Left" Height="28" Margin="19,25,0,0" VerticalAlignment="Top" Width="223" />
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="19,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" x:Name="TextBoxOut"/>
+        <CheckBox Content="Очистить файл?" HorizontalAlignment="Left" Height="20" Margin="19,110,0,0" VerticalAlignment="Top" Width="111" x:Name="CleanCheckBox" Checked="CleanFile_Checked" Unchecked="CleanFile_Unchecked"/>
+        <Button Content="Получить информацию" HorizontalAlignment="Left" Height="34" Margin="50,171,0,0" VerticalAlignment="Top" Width="146" Click="OutFromFile_Click"/>
+        <CheckBox Content="Перезаписать лист?" HorizontalAlignment="Left" Height="21" Margin="19,135,0,0" VerticalAlignment="Top" Width="137" x:Name="ReWriteCheckBox" Checked="ReWrite_Checked" Unchecked="ReWrite_Unchecked"/>
+
+    </Grid>
+</Window>

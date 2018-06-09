@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfAppLab.Task2_SizeAndColor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLab"
+        mc:Ignorable="d"
+        Title="SizeAndColor" Height="300" Width="300"
+        Closing="Window_Closing">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,87,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <CheckBox Content="Red" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Checked="Red_Checked" Unchecked="Red_Unchecked"/>
+        <CheckBox Content="Green" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Checked="Green_Checked" Unchecked="Green_Unchecked" />
+        <CheckBox Content="Blue" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Checked="Blue_Checked" Unchecked="Blue_Unchecked"/>
+        <Button Content="Input Data" HorizontalAlignment="Left" Margin="162,163,0,0" VerticalAlignment="Top" Width="92" Height="57" Click="Input_Click"/>
+
+    </Grid>
+</Window>
